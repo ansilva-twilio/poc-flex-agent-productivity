@@ -45,8 +45,8 @@ const AIAssistantSummary: React.FC = (
     <>
       {isDisplay && (
         <Callout variant={variantStyle} element="SUMMARY_CALLOUT">
-          <CalloutHeading as="h2">
-            Resumo da conversa com o Assistente Virtual
+          <CalloutHeading as="h2" element="SUMMARY_CALLOUT_HEADING">
+            Resumo da conversa com o Assistente Virtual:
           </CalloutHeading>
           <CalloutText>{conversationSummary}</CalloutText>
         </Callout>

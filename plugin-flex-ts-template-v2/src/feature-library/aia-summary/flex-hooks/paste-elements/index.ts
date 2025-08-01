@@ -5,4 +5,7 @@ export const pasteElementHook = {
     borderBottom: 'solid 1px #ccc',
     borderRadius: '0px',
   },
+  SUMMARY_CALLOUT_HEADING: {
+    fontWeight: 'bold',
+  },
 } as { [key: string]: any };
